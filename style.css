@@ -36,8 +36,8 @@ body.page-template-template-full-width #content #primary .entry-header {
 .has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
     height: 100%;
     left: 0;
-    -o-object-fit: cover;
-    object-fit: contain;
+    -o-object-fit: none;
+    object-fit: none;
     top: 0;
     -ms-transform: none;
     -moz-transform: none;
