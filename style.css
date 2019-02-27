@@ -36,14 +36,19 @@ body.page-template-template-full-width #content #primary .entry-header {
 .has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
     height: 100%;
     left: 0;
-    -o-object-fit: none;
-    object-fit: none;
+    -o-object-fit: contain;
+    object-fit: contain;
     top: 0;
     -ms-transform: none;
     -moz-transform: none;
     -webkit-transform: none;
     transform: none;
     width: 100%;
+}
+
+@media screen and (min-width: 48em)
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media, .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media, .admin-bar.home.blog.has-header-image .custom-header-media, .admin-bar.home.blog.has-header-video .custom-header-media {
+    height: calc(30vh - 32px);
 }
 
 
