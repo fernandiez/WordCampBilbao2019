@@ -33,3 +33,33 @@ body.page-template-template-full-width #content #primary .entry-header {
 	}
 
 
+.has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: contain;
+    top: 0;
+    -ms-transform: none;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
+}
+
+
+.site-header {
+    background-color: #222;
+    position: relative;
+}
+
+.site-title, .site-title a {
+    color: #C9C9C9;
+    opacity: 1;
+}
+
+.site-description {
+    color: #868889;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    margin-bottom: 0;
+}
