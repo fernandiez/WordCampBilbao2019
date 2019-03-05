@@ -191,7 +191,7 @@ blockquote:after {
 	font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
-/* Custom Github /
+/* Custom Github */
 
 
 body.page-template-template-full-width #content #primary {
@@ -229,11 +229,21 @@ body.page-template-template-full-width #content #primary .entry-header {
 	}
 
 
-
-
 .site-header {
     background-color: #222;
     position: relative;
+}
+
+.site-title {
+    clear: none;
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: 0.08em;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
 }
 
 .site-title, .site-title a {
@@ -246,4 +256,35 @@ body.page-template-template-full-width #content #primary .entry-header {
     font-size: 13px;
     font-size: 0.8125rem;
     margin-bottom: 0;
+}
+
+
+.navigation-top a {
+    color: #222;
+    font-weight: 400;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+@media screen and (min-width: 48em) {
+.navigation-top {
+    bottom: 0;
+    font-size: 16px;
+    font-size: 1rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 3;
+}
+}
+
+@media screen and (min-width: 48em) {
+h2.widget-title {
+    font-size: 16px;
+    font-size: 1rem;
+    margin-bottom: 2em;
+    border-bottom: 3px solid #3f7398;
+    padding-bottom: 15px;
+}
 }
