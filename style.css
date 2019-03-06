@@ -193,6 +193,15 @@ blockquote:after {
 
 /* Custom Github */
 
+body, button, input, select, textarea {
+    color: #333;
+    font-family: "Aleo", "Helvetica Neue", helvetica, arial, serif;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
 
 body.page-template-template-full-width #content #primary {
 	max-width: 100% !important;
@@ -336,4 +345,57 @@ body:not(.has-sidebar):not(.page-one-column) .page-header, body.has-sidebar.erro
     width: 100%;
 }
 }
+
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #222;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: none;
+    border-bottom: 3px solid #3f7398;
+    padding-bottom: 15px;
+    letter-spacing: 0.10rem;
+}
+
+.site-title {
+    clear: none;
+    font-size: 36px;
+    font-size: 2.4rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: 0.10em;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #fff;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: none;
+    border-bottom: 3px solid #3f7398;
+    padding-bottom: 15px;
+    letter-spacing: 0.10rem;
+    background: #3f7398;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+h2, .home.blog .entry-title {
+    color: #333;
+    font-size: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+ul {
+    list-style: disc;
+    margin-left: 30px;
+}
+
 
