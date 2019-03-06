@@ -202,6 +202,26 @@ body, button, input, select, textarea {
     line-height: 1.8;
 }
 
+button, input[type="button"], input[type="submit"] {
+    background-color: #3f7398;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
 
 body.page-template-template-full-width #content #primary {
 	max-width: 100% !important;
