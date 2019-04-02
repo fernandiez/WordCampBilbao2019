@@ -306,6 +306,10 @@ body.page-template-template-full-width #content #primary .entry-header {
     transition: color 0.2s;
 }
 
+.speaker-avatar {
+    display: none;
+}
+
 @media screen and (min-width: 48em) {
 .navigation-top {
     bottom: 0;
