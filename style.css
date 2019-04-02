@@ -310,6 +310,23 @@ body.page-template-template-full-width #content #primary .entry-header {
     display: none;
 }
 
+.single-featured-image-header {
+    background-color: #fff;
+    border-bottom: 0px solid #eee;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.single-featured-image-header img {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
 @media screen and (min-width: 48em) {
 .navigation-top {
     bottom: 0;
