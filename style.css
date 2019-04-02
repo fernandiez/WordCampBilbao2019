@@ -327,6 +327,23 @@ body.page-template-template-full-width #content #primary .entry-header {
 }
 
 
+
+
+.post-8 h2 {
+    color: #222;
+    font-size: 32px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: none;
+    border-bottom: 3px solid #3f7398;
+    padding-bottom: 15px;
+    letter-spacing: .1rem;
+}
+
+.post-8 h2 strong {
+    font-weight: 400;
+}
+
 @media screen and (min-width: 48em) {
 .navigation-top {
     bottom: 0;
